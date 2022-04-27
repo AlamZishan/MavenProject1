@@ -8,6 +8,7 @@ public class OpenGoogle {
 	public static void main(String[] args) {
 		//setting path of chrome webdriver.exe file
 		System.setProperty("webdriver.chrome.driver", "D:\\Software\\selenium\\browser driver\\chromedriver.exe");
+		//creating object of chromeDriver
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		driver.getTitle();
