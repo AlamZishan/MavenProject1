@@ -12,7 +12,7 @@ public class OpenGoogle {
 		WebDriver driver = new ChromeDriver();
 		//using object driver and  get method opening google.com
 		driver.get("https://www.google.com");
-		driver.getTitle();
+		driver.getTitle(); //getting title of web page
 	}
 
 }
